@@ -21,10 +21,27 @@
     <main>
         <section>
             <h2>Contact Me</h2>
-            <p>You can reach me through the following methods.</p>
-            <p> Email: daniella@gmail.com</p>
-            <p> Phone: 0711111111</p>
-            <p> Address: 123 Mai Mahiu Road, Nairobi, Kenya</p>
+            <!-- Contact form -->
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
         </section>
     </main>
 
