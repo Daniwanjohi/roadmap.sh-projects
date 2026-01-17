@@ -1,4 +1,4 @@
-# demo-1
+# Basic HTML Website
  A simple website built using HTML showing basic concepts.
  
  ### Project Overview
